@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|asset|application|system)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+######### ON HOSTING FORMAT #########
+# RewriteEngine on
+# RewriteCond $1 !^(index\.php|application|asset|system)
+# RewriteRule ^(.*)$ /index.php/$1 [L]
